@@ -3,7 +3,7 @@ typedef struct {
    int y;
 } ms;
 
-intint main(int a, int b)
+int main(int a, int b)
 {
     ms var[5];
     ms (*ptr)[]=&var;
